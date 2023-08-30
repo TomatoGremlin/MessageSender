@@ -38,7 +38,7 @@ public class MessageSenderApplication {
 		/*ConfigurableApplicationContext context = SpringApplication.run(MessageSenderApplication.class, args);
 		TeamsWebhookService webhookService = context.getBean(TeamsWebhookService.class);
 
-		final String apiUrl = "https://casinosolutioninteractive.webhook.office.com/webhookb2/828ae674-f70a-4992-baaa-787ed533b464@440eae1c-3369-4397-a12b-1fd4e9b627f9/IncomingWebhook/059d23e5b71640eb94b5311905ba123d/62058810-8a08-459e-a39b-78d828eda230";
+		final String apiUrl = "https://casinosolutioninteractive.webhook.office.com/webhookb2/828ae674-f70a-4992-baaa-787ed53366b464@440eae1c-3369-4397-a12b-1fd4e9b627f9/IncomingWebhook/059d23e5b71640eb94b5311905ba123d/62058810-8a08-459e-a39b-78d828eda230";
 
 		TeamsMessage simpleMessage = new TeamsMessage();
 		simpleMessage.setTitle("Paypal");
