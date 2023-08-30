@@ -17,9 +17,9 @@ public class WebhookController {
     @Autowired
     private TeamsWebhookService teamsWebhookService;
     //cat webhook
-    private final String webhookURL = "https://casinosolutioninteractive.webhook.office.com/webhookb2/828ae674-f70a-4992-baaa-787ed533b464@440eae1c-3369-4397-a12b-1fd4e9b627f9/IncomingWebhook/059d23e5b71640eb94b5311905ba123d/62058810-8a08-459e-a39b-78d828eda230";
+    private final String webhookURL = "";
     //hamster webhook
-    private final String webhookURL2 = "https://casinosolutioninteractive.webhook.office.com/webhookb2/828ae674-f70a-4992-baaa-787ed533b464@440eae1c-3369-4397-a12b-1fd4e9b627f9/IncomingWebhook/8d3807a1c3e444cab1fd661977b21fce/62058810-8a08-459e-a39b-78d828eda230";
+    private final String webhookURL2 = "";
 
 
     @PostMapping("/send")
